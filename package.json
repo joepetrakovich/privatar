@@ -1,5 +1,5 @@
 {
-  "name": "gravitar",
+  "name": "privitar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,11 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "hardhat": "^2.17.3"
+  },
+  "dependencies": {
+    "@oasisprotocol/sapphire-contracts": "^0.2.4",
+    "@oasisprotocol/sapphire-hardhat": "^2.16.1",
+    "@oasisprotocol/sapphire-paratime": "^1.1.1",
+    "dotenv": "^16.3.1"
   }
 }

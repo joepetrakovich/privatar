@@ -1,13 +1,4 @@
-# Sample Hardhat Project
+# Privatar - A Web3 Gravatar Clone Dapp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Privatar is a web3 gravatar clone dapp that is used as the subject of a tutorial.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
