@@ -66,7 +66,7 @@ export async function getOasisNetworkConnectionStatus(): Promise<boolean> {
         
         return false;
 
-    } catch(error) { 
+    } catch { 
         return false; 
     }
 }

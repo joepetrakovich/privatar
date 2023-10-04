@@ -2,7 +2,6 @@
     import Header from '$lib/Header.svelte';
     import placeholder from "$lib/images/placeholder-150x150.png";
     import { privatarContract, signerAddress } from '$lib/Stores';
-    import { onDestroy } from 'svelte';
 
     let files: FileList,
         name: string, 
@@ -44,7 +43,6 @@
             .finally(() => submitting = false);
     }
 
-    let signature;
     const handleRefresh = async () => {
         try {
             const profile = await $privatarContract?.getProfile($signerAddress)
@@ -80,7 +78,6 @@
     <span>Transaction pending...</span>
 {/await}
 </form>
-
 
 <style>
     form {

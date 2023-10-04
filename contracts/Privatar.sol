@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-import "@oasisprotocol/sapphire-contracts/contracts/Sapphire.sol";
-
 contract Privatar {
 
     struct Profile {
